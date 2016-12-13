@@ -1,0 +1,53 @@
+#IDM {
+	-fx-background-color: #21b297;
+	-fx-text-fill: white !important;
+	-fx-font-size: 15px;
+}
+
+/*#IDF {
+	-fx-text-fill: white !important;
+}
+
+#IDE {
+	-fx-text-fill: white !important;
+}
+
+#IDH {
+	-fx-text-fill: white !important;
+}*/
+
+.menu .label {
+	-fx-text-fill: white !important;
+	-fx-font-weight: bold;
+}
+
+.menu:hover {
+	-fx-background-color: #bc784e;
+}
+
+#IDF.menu:hover {
+	-fx-background-color: #8080c0;
+
+}
+#IDE.menu:hover {
+	-fx-background-color: #ff0080;
+
+}
+
+.context-menu {
+    -fx-background-color: #c0c0c0;
+}
+
+.context-menu:hover {
+    -fx-background-color: #408080;
+}
+
+/*#IDF{
+    -fx-background-color: red;
+    -fx-size: 50 ;
+}*/
+
+
+.context-menu .menu-item:hover {
+    -fx-background-color: #408080;
+}
