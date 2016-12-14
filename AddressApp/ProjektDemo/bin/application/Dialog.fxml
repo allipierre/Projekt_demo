@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllDialog">
+   <children>
+      <Button layoutX="423.0" layoutY="567.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="109.0" text="Button" />
+      <TextField layoutX="95.0" layoutY="293.0" prefHeight="42.0" prefWidth="149.0" />
+      <Label id="IDAD" alignment="CENTER" contentDisplay="CENTER" layoutX="84.0" layoutY="21.0" prefHeight="35.0" prefWidth="600.0" text="Application Demo" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="391.0" layoutY="286.0" prefHeight="42.0" prefWidth="149.0" />
+      <TextField layoutX="95.0" layoutY="374.0" prefHeight="42.0" prefWidth="149.0" />
+      <TextField layoutX="391.0" layoutY="374.0" prefHeight="42.0" prefWidth="149.0" />
+      <Button layoutX="265.0" layoutY="573.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="109.0" text="Button" />
+      <Button layoutX="101.0" layoutY="573.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="109.0" text="Button" />
+      <TextField layoutX="95.0" layoutY="466.0" prefHeight="42.0" prefWidth="149.0" />
+      <TextField layoutX="391.0" layoutY="466.0" prefHeight="42.0" prefWidth="149.0" />
+      <Label layoutX="14.0" layoutY="306.0" text="Username" />
+      <Label layoutX="14.0" layoutY="387.0" text="Username" />
+      <Label layoutX="22.0" layoutY="479.0" text="Username" />
+      <Label layoutX="310.0" layoutY="298.0" text="Username" />
+      <Label layoutX="310.0" layoutY="379.0" text="Username" />
+      <Label layoutX="310.0" layoutY="479.0" text="Username" />
+      <DatePicker fx:id="DP" layoutX="95.0" layoutY="228.0" onAction="#performSelection" />
+      <Label layoutX="14.0" layoutY="232.0" prefHeight="17.0" prefWidth="43.0" text="Date" />
+   </children>
+</AnchorPane>
